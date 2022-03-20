@@ -1,10 +1,8 @@
 const btn = document.querySelector("#btn");
-const span = document.querySelector(".span");
 const spanRgb = document.querySelector(".rgb");
 
 const handleChangeColor = () => {
   document.body.style.background = rgb();
-  span.style.color = `rgb(255,255,255)`;
   spanRgb.textContent = rgb();
 };
 
